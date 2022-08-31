@@ -1,0 +1,253 @@
+body{
+    font-family: "spline Sans", sans-serif;
+    background-color: #FCF8E8;
+    color: #777;
+    line-height:1.7;
+}
+.navbar{
+    background-color:#FCF8E8;
+}
+.navbar-brand, .footer-brand{
+    font-family: "Merriweather", sans-serif;
+    font-weight:900;
+    font-size:2rem;
+
+}
+.nav-block{
+    margin:auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:600;
+    color:#222;
+}
+
+a{
+    color:#222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight:600;
+}
+a:hover{
+    color: #F58d17;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top:120px;
+    padding-bottom: 120px;
+}
+
+.shadow-on-hover{
+    transition: 0.3s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+.btn{
+    border-radius: 0;
+    padding:14px 38px;
+}
+.btn-brand{
+    color: #fff;
+    font-weight:500;
+    border-color: #F58d17;
+    background-color:#F58d17;
+}
+.btn-brand:hover{
+    color:#fff;
+    border-color:#c76c05;
+    background-color:#c76c05;
+}
+
+/* slider */
+.bg-cover{
+    background-position: center !important;
+    background-size:cover !important;
+    background-repeat: no-repeat !important;
+}
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover1.jpg);
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover2.jpg);
+}
+/* mainSlider line did not work */
+
+.carousel-control-prev{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+.carousel-control-next{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+/* About */
+#about .container{
+    background-color: #f58d1770;
+    color: rgb(27, 27, 27);
+}
+
+/* Intro text */
+.intro-text{
+    margin-bottom:40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin:16px auto 0 auto;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link{
+    background-color:#FCF8E8 ;
+    color:white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color:#222;
+    border-radius:100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: #F58d17;
+   color:white;
+}
+.menu-item .stars{
+    color:#F58d17;
+}
+
+
+/* features */
+#features{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/cover2.jpg);
+}
+.feature{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.feature-icon{
+    width: 80px;
+    height:80px;
+    background-color: #F58d17;
+    color: white;
+    font-size:28px;
+    display:inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+/* Team */
+.team-mem img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 #F58d17;
+    border-radius: 100px;
+}
+
+
+/* features */
+
+#reviews{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/cover3.jpg);
+
+}
+
+/* Review */
+
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.review .quote-icon{
+    font-size:74px;
+    color: #F58d17;
+    line-height: 1;
+}
+
+.review .stars{
+    color:#F58d17;
+}
+#reviews .carousel-indicators{
+    margin-bottom:-3rem;
+}
+
+
+/* Reservation */
+
+#reservation .form-control{
+    border-radius: 0;
+
+}
+#reservation .form-control:focus{
+    box-shadow:none;
+    border-color: #F58d17;
+
+}
+#reservation .input.form-control{
+    height:46px;
+}
+
+/* Blog post */
+.blog-post img{
+    width:40%;
+    object-fit: cover;
+
+}
+
+/* Footer */
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/cover3.jpg);
+    padding-top:120px;
+    padding-bottom: 30px;
+} 
+footer p, footer a{
+    color:rgba(255, 255, 255, 0.75);
+}
+footer .social-links, .footer-contact{
+    padding-bottom: 1rem;
+}
+.footer-brand{
+    font-size: 3rem;
+}
+footer a{
+    font-weight: normal;
+    font-size:24px;
+    margin-right:10px;
+}
+footer img{
+    max-width: 175px;
+}
+.footer-bottom{
+    padding-top:30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.top-button{
+    background-color: #222;
+}
+
+@media (max-width:430px) {
+    #menu .nav-pills .nav-link{
+        margin-top: 10px;
+    }
+    
+}
+@media (max-width: 760px){
+    .blog-post{
+        flex-direction:column;
+    }
+    .blog-post img{
+        width: 100%;
+
+    }
+}
